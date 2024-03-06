@@ -1,0 +1,2 @@
+app:
+  target: wss://dev-api.smarttrader.com/chart-history/ws

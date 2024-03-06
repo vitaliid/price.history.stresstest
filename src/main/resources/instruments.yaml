@@ -1,0 +1,178 @@
+instruments:
+  all: true
+  list:
+    - name: "AUD/USD"
+      enabled: false
+    - name: "AUD/CAD"
+      enabled: false
+    -
+      name: "AUD/CHF"
+      enabled: false
+    -
+      name: "AUD/JPY"
+      enabled: false
+    -
+      name: "NZD/USD"
+      enabled: false
+    -
+      name: "AUD/NZD"
+      enabled: false
+    -
+      name: "CAD/CHF"
+      enabled: false
+    -
+      name: "CAD/JPY"
+      enabled: false
+    -
+      name: "CHF/JPY"
+      enabled: false
+    -
+      name: "EUR/AUD"
+      enabled: false
+    -
+      name: "EUR/CAD"
+      enabled: false
+    -
+      name: "EUR/CHF"
+      enabled: false
+    -
+      name: "EUR/NOK"
+      enabled: false
+    -
+      name: "EUR/NZD"
+      enabled: false
+    -
+      name: "GBP/AUD"
+      enabled: false
+    -
+      name: "GBP/CAD"
+      enabled: false
+    -
+      name: "GBP/CHF"
+      enabled: false
+    -
+      name: "GBP/NZD"
+      enabled: false
+    -
+      name: "NZD/CAD"
+      enabled: false
+    -
+      name: "NZD/CHF"
+      enabled: false
+    -
+      name: "NZD/JPY"
+      enabled: false
+    -
+      name: "USD/MXN"
+      enabled: false
+    -
+      name: "USD/ZAR"
+      enabled: false
+    -
+      name: "ZAR/JPY"
+      enabled: false
+    -
+      name: "XAU/USD"
+      enabled: false
+    -
+      name: "XAG/USD"
+      enabled: false
+    -
+      name: "USOIL/USD"
+      enabled: false
+    -
+      name: "USDOLLAR/USD"
+      enabled: false
+    -
+      name: "USD/NOK"
+      enabled: false
+    -
+      name: "USD/CAD"
+      enabled: false
+    -
+      name: "EUR/USD"
+      enabled: false
+    -
+      name: "GBP/USD"
+      enabled: false
+    -
+      name: "GBP/USD"
+      enabled: false
+    -
+      name: "USD/JPY"
+      enabled: false
+    -
+      name: "USD/CHF"
+      enabled: false
+    -
+      name: "EUR/GBP"
+      enabled: false
+    -
+      name: "EUR/JPY"
+      enabled: false
+    -
+      name: "JPYX/USD"
+      enabled: false
+    -
+      name: "GBP/JPY"
+      enabled: false
+    -
+      name: "EMX/USD"
+      enabled: false
+    -
+      name: "GER30/USD"
+      enabled: false
+    -
+      name: "ESP35/USD"
+      enabled: false
+    -
+      name: "UK10/USD"
+      enabled: false
+    -
+      name: "FRA40/USD"
+      enabled: false
+    -
+      name: "HKG33/USD"
+      enabled: false
+    -
+      name: "EUSTX50/USD"
+      enabled: false
+    -
+      name: "AUS200/USD"
+      enabled: false
+    -
+      name: "JPN225/USD"
+      enabled: false
+    -
+      name: "UKOIL/USD"
+      enabled: false
+    -
+      name: "WHEATF/USD"
+      enabled: false
+    -
+      name: "CORNF/USD"
+      enabled: false
+    -
+      name: "US2000/USD"
+      enabled: false
+    -
+      name: "SOYF/USD"
+      enabled: false
+    -
+      name: "CHN50/USD"
+      enabled: false
+    -
+      name: "NGAS/USD"
+      enabled: false
+    -
+      name: "US30/USD"
+      enabled: false
+    -
+      name: "SPX500/USD"
+      enabled: false
+    -
+      name: "NAS100/USD"
+      enabled: false
+    -
+      name: "COPPER/USD"
+      enabled: false

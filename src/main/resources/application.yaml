@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: com.smarttrader.price-history-service.stresstest
+
+springdoc:
+  api-docs:
+    path: /api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger
+    operationsSorter: method
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: [ "health","prometheus","metrics" ]
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+
+server:
+  port: 8080
+app:
+  target: ${APP_TARGET}
+  silence-timeout-seconds: 60
+
+subscription:
+  throttling:
+    connections: 1000
+    seconds: 1
+  connections: 1
+  durationInMinutes: 10
+  batch-size: 20
+  max-in-minute: 100
+  request:
+    periods: >  # 1m = 1 minute, 1M = 1 month 
+      1m,
+      5m
+    candles: 4000
+    global-time: P2Y1D # min 1 day, https://www.digi.com/resources/documentation/digidocs//90001488-13/reference/r_iso_8601_duration_format.htm
